@@ -1,0 +1,12 @@
+@page {
+  size: A4 landscape;
+  margin: 10mm;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 160mm;
+  height: auto;
+  margin: 0 auto;
+}

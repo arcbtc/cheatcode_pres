@@ -1,0 +1,165 @@
+I am going to make a 15min presentation on "Building Without Permission in the Age of AI".
+
+Focus will be on usefullness for normal people being able to build whatever they want, limitations, how it impacts businesses and how they should adjust (empowering users).
+
+Slide 1
+Title : Building Without Permission in the Age of AI
+"Since the advent of desktop computing there has been a dialectic between permissioned and permissionless development, in this talk we will look at its history and how easy access to AI has impacted permissioned and permissionless computing."
+
+Slide 2
+Title : Breif history of free & open source
+* 1970s — “Sharing culture”  
+  Homebrew Computer Club (pre–open source)
+* 1976 — Bill Gates, “An Open Letter to Hobbyists”  
+  “People copying software is stealing”
+* 1983 — GNU Project (Richard Stallman)  
+  1985 — GNU GPL v1  
+  * Must share source  
+  * Keeps software open  
+  * Requires attribution  
+* 1987 — MIT License (Massachusetts Institute of Technology)  
+  * Do anything (even use in closed software)  
+  * Just keep attribution  
+
+Notes: "Computer enthusiats early on had a culture of sharing, if you needed a piece of softwre to do a thing you would ask about if your freinds had similiar software or build your own. first few generations of desktop computers would start in the command line - the commodor 64 "READY" prompt.
+When propriatory forces like microsoft came along, they wanted to ip and own software. 
+A reaction to treating software as property rather than knowledge, Stallman quit MIT and began the GNU project 'GNU Not Unix'.
+Stallmans first challenge was securing 'free' software with a license, that stopped propriatory interests owning the software later, and kept attribute as to where the software came from.
+Later other licenses like MIT allowed software to be used privately, but attribution should be given by including the original license.
+In the mid 1990s companies like Microsoft started to become twitchy when Linus Torvalds, in a modest bungalow in san fransisco, and Swanseas very own Alan Cox, in a small fisherman cottage, were running and mainting a stable linux version. <insert anicdotal story about visiting alan cox and him swearing he had never touched bitcoin even though his main workstation was an old bitcoin miner>.
+One of Linus's innovations for managing the software later became GIT, which is how all free and open souce software is now managed."
+
+Slide 3
+Title: Free & Open Source Won (Quietly)
+* The internet runs on open source  
+  (Linux, Apache, PostgreSQL, OpenSSL)
+* Every company builds on FOSS  
+  Even proprietary software depends on it
+* Big tech became the biggest contributors  
+  Microsoft, Google, Meta all fund & maintain FOSS
+* Open source became infrastructure  
+  Invisible, but everywhere
+"By the 2000s, something interesting happened.
+Open source didn’t just survive — it won.
+The entire internet stack is basically open source.
+Linux, web servers, databases, cryptography…
+Even companies building closed software are standing on top of it.
+And then something even more ironic happened —
+The biggest open source contributors… became big tech.
+Microsoft, Google, Meta — all heavily funding and maintaining open source.
+So you end up in this weird world where:
+The foundations are permissionless…
+but the products built on top are often permissioned.
+"
+
+Slide 4
+Title: FOSS as The Commons "Adam Smith Invisible Bitch Slap"
+* Modular protocols
+* My own LNbits journey
+
+"Within bitcoin and nostr anyone is free to build anything without permission. Capital is answerable to the wider free and open-source community. You know Adam Smith's original Inviisble hand was that British industrialist decsions would be 'guided' by an invisible hand to benefit Britain as a whole, even for their own selfish ends, like security, if Britain was safer they too would be safer. With widespread international corporations that incentive became obfuscated. The industrialist had their conext with their descsion making broken. The same dynamic carries into centralised propriatory platforms, once users are locked in the platforms enshitify. Free and open-source protocols like bitcoin and nostr are a commons, and the unwritten rule for success is nurture the commons and be rewarded, exploit it and be punished by the wider community of users. The Adam Smith Invisible Bitch Slap. Capital is beholden to the community as a whole.
+Free and open-source just makes sense. For the project I started LNbits, if it was propriatory it would have costed millions to develop"
+
+
+Slide 5
+Title: Prompt coding "like its 1975"
+* READY <c64 callback>
+* Context, context, context
+"
+
+"
+
+
+Slide 6
+Title: Vibe Coding imitations 
+* Slop
+* Energy dependency
+* Licensing concerns
+* Enshittification
+"Going against the conventional wisdom openAI realised throwing morrrr energy at ai made it better. We have seen in recent months rise in cost of energy, ai companies have had a lot f tax relief, no ai is profitable the $20 per month chatgpt  subscription is prob worth 1000s. 
+Models are trained on foss software and often use licensed code blocks. As we have seen, foss doesnt mean do whatever you want, attriubtation is important, and legally binding.
+At some point these AI companies will need to turn a profit"
+
+Slide 7
+Title: Implications for business models
+* Closed propriatory services are doomed
+* API is your new UI
+* Some computers should be dumb and thats okay <lnbits nix box example>
+* Developer job security
+
+"
+
+"
+
+Slide 8
+Title: Dont Panic!
+
+
+Additional notes, which would be nice to be in the slides if they are not already:
+
+The dialectic between permissioned and permissionless web has always existed, first it was permissionless, then propriatory forces starting claiming ownership of land, then permsionless free and open source movement fought back with effective licensing.
+
+Permission is censorship 
+
+Monetizing ai is pretty impossible.
+
+Tech bro underestimating what software engineers do, and what knowledge is. Knowledge is abstractions based on clusters of information most importantly human, when building for other humans. The code writing bit is often least time consuming part.
+
+Context
+
+Internet software always had dialectic between permsionless (build whatever i want and share). Permissioned, build license gatekeep.
+
+Companies adjusting. 
+
+Llms very good and pretending to be clever, until it strays outside of its knowledge then it becomes incredibly dumb
+
+Rather than skills abundance the process of becoming a good software engineer needs to include writing code, there is really no incentive to learn basics. So likely there will be less people skilled enough to software engineer
+
+Which is why you should hang on to engineers, especially the ones who were reluctant to use ai, as 99% of the time they're the skilled engineers
+
+Its giving up on teaching kids math's because calculators exist
+
+Sessor haldalgo "knowledge in non fhngible" tge reason you hired someone was because of their knowledge and how that impacts them implementing things.
+
+If companies were to actually
+
+Ai might for a long tume b3 bad moving outside of its training data, or what we would call being creative.
+
+Humans for a long time could continue to be tge context and knowledge engines.
+
+Wealth transfer, we all get access to disproportionately powerful tools for the money we spend to grind out better services (for now), and vc community is paying the bill. 
+When the dumbing down happens and ai companies enshiffify will they claim ownership over chunks of code?
+Just as Google became evil, as will agents. Ai as weapons race
+
+Decision makers replaced, resource allocation.
+
+Existential reconciling anyone impacted by ai competence. Everyone reacts differently.
+
+Marx would call it one of the contradictions of capitalist mode. Eventually effeincy replaces jobs, without jobs people cant afford to buy new things and whole mode implodes. Not that societies haven't existed before that didn't reallie on wage labor. Ancient Greeks for example, 2/3 were slaves and they did all the work. Its an interesting problem that will impact all of us i am sure, if you plug it into ai it'll first argue humans will always have jobs, then you point out most won't, then it will say well ultra rich can still buy things, then you say what about everyone else, and it will suggest ubi.
+
+Closed propriatory is pretty doomed, open and modular protocols are useful, like bitcoin and nostr.
+
+Context.
+
+Slop. No context and quality control.
+
+nostr.com/nevent1qqs92t377gpxgssry9j7s4j7ln7ffd346k3xfzgpzmz7vdxwudm55gspypmhxue69uhkyat5w3jhycm4wpex2mrp0yh85etpvf6hytnpwpcz7q3q72y2yf9xrdekr25acsdfp2ag5t0lg4zdkz7rseegucuty8dp0ykqxpqqqqqqzqv7ju8
+
+Chatgpt interface for nostr
+
+Sam Altman, who is always thinking looks a little like a gta character.
+
+Tech bro underestimating what software engineers do, and what knowledge is. Knowledge is abstractions based on clusters of information most importantly human, when building for other humans. The code writing bit is often least time consuming part.
+
+Context, human input, examples in the code.
+
+"I still review all the code" claude dude
+
+Licensing, may be subject to third party licenses
+
+We know platforms enshittify
+
+Internet software always had dialectic between permsionless (build whatever i want and share). Permissioned, build license gatekeep.
+
+Companies adjusting. 
+
