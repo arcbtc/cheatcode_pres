@@ -1,0 +1,63 @@
+name: Build presentation PDFs
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'presentation.md'
+      - 'notes_sheet.md'
+      - 'scripts/**'
+      - '.github/workflows/build-presentation.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf
+
+      - name: Install Marp CLI
+        run: npm install -g @marp-team/marp-cli
+
+      - name: Build presentation PDF
+        run: |
+          marp \
+            --allow-local-files \
+            --pdf \
+            --html \
+            --output presentation.pdf \
+            presentation.md
+
+      - name: Build notes sheet PDF
+        run: |
+          pandoc \
+            notes_sheet.md \
+            --standalone \
+            --css ./scripts/pandoc.css \
+            --pdf-engine=wkhtmltopdf \
+            -o notes_sheet.pdf
+
+      - name: Upload PDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: presentation-pdfs
+          path: |
+            presentation.pdf
+            notes_sheet.pdf
+          if-no-files-found: error
