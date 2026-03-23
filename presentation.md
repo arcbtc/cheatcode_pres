@@ -4,7 +4,8 @@ title: "Building Without Permission in the Age of AI"
 description: "A short talk on permissionless building, open source, AI, and business adaptation"
 theme: default
 paginate: true
-paginate-position: bottom-right
+paginate-position: bottom-left
+footer: "Ben Arc | CEO lnbits.com / lnostr.com"
 backgroundColor: #0d0616
 color: #f5ecff
 style: |
@@ -24,6 +25,16 @@ style: |
       linear-gradient(180deg, #12081f 0%, #0d0616 100%);
     color: var(--text);
     padding: 54px 60px 46px 60px;
+  }
+
+  footer {
+    font-size: 0.5em;
+    color: rgba(245, 236, 255, 0.38);
+    letter-spacing: 0.03em;
+    left: auto;
+    right: 34px;
+    bottom: 18px;
+    text-align: right;
   }
 
   section::after {
@@ -170,60 +181,27 @@ style: |
 
 ## Building Without Permission in the Age of AI
 
-<div class="hero">
-<div>
-
-### In this talk
-- A short history of permissionless building
-- What AI changes for ordinary builders
-- Why this matters for the people building systems now
-
-<blockquote>
-Permission is censorship with better branding.
-</blockquote>
-
-</div>
-<div class="panel">
-<div class="small">Talk map</div>
-<div class="stats">
-<div class="stat"><div class="stat-label">1</div><div class="stat-value">History</div></div>
-<div class="stat"><div class="stat-label">2</div><div class="stat-value">Commons</div></div>
-<div class="stat"><div class="stat-label">3</div><div class="stat-value">AI Limits</div></div>
-<div class="stat"><div class="stat-label">4</div><div class="stat-value">What Next</div></div>
-</div>
-</div>
-</div>
-
 ---
 
-## A Brief History of FOSS
+## A Brief History of Free and Open-Source
 
-- **1970s:** sharing culture, Homebrew era
-- **1976:** Bill Gates, "Open Letter to Hobbyists"
-- **1983:** GNU Project starts
-- **1985:** GPL protects software freedom
-- **1987:** MIT License allows broad reuse
+
+- **1970s** “Sharing culture”  
+  Homebrew Computer Club (pre–open source)
+- **1976:** Bill Gates, “An Open Letter to Hobbyists”  
+  “People copying software is stealing”
+- **1983:** GNU Project (Richard Stallman)  
+  **1985:** GNU GPL v1  
+  * Must share source  
+  * Keeps software open  
+  * Requires attribution  
+- **1987:** MIT License (Massachusetts Institute of Technology)  
+  * Do anything (even use in closed software)  
+  * Just keep attribution  
 
 <blockquote>
-Software was first shared like knowledge, then fenced off, then opened again.
+Software as knowledge not property
 </blockquote>
-
----
-
-## Open Source Won Quietly
-
-- The internet runs on open source
-- Even closed products stand on it
-- Big tech ended up maintaining the commons too
-- The stack is open; the product layer often is not
-
-<div class="panel">
-
-### The strange outcome
-- Open source won infrastructure
-- Permission still dominates interfaces
-
-</div>
 
 ---
 
@@ -232,7 +210,6 @@ Software was first shared like knowledge, then fenced off, then opened again.
 - Bitcoin and Nostr let people build without asking
 - Open protocols keep capital answerable to users
 - Closed platforms lock people in, then enshittify
-- LNbits only exists because the commons existed first
 
 <blockquote>
 Nurture the commons and get rewarded. Exploit it and the network slaps back.
@@ -240,21 +217,26 @@ Nurture the commons and get rewarded. Exploit it and the network slaps back.
 
 ---
 
-## Building Like It’s 1975
+## The good: vibe coding, and building Like It’s 1975
 
 - Ordinary people are making little software projects again
-- The new superpower is turning an idea into a working tool quickly
-- The key ingredient is still **context**
-- Code is the easy bit; judgement is the work
+- Gonzo developing
+- **context** supremacy 
+
+<blockquote>Replacing a developer with AI is like replacing a carpenter with a hammer
+</blockquote>
 
 ---
 
-## Vibe Coding Has Limits
+## The bad: AI hype, myth, limitations, bubble
 
-- LLMs are great at sounding clever
-- Outside context, they get dumb fast
-- No context means slop
-- Licensing and energy costs do not disappear
+- Turing hype: LLMs are great at sounding clever
+- !context === slop. Agents get dumb fast 
+- Licensing implications + code theft
+- Unsustainable AI business models (current 20x discount)
+- AGI promise built on sand
+- Rising energy/resource costs (Iran)
+- VC/CEO crack - dump workforce, force useless "AI" products on customers
 
 | Risk | Result |
 | --- | --- |
@@ -264,40 +246,24 @@ Nurture the commons and get rewarded. Exploit it and the network slaps back.
 
 ---
 
-## What This Means for Companies
+## Adusting
 
-- Closed software gets weaker when users can build for themselves
-- **API is the new UI** in more and more products
+- **API is the UI for the AI**
 - Some systems should stay dumb, narrow, and predictable
-- The scarce thing is still judgement, not token output
+- Context/ideas are scarce, not token output
 
-<div class="panel">
-
-### The adjustment
-- Empower users
-- Prefer modular systems
-- Do not outsource understanding
-
-</div>
-
----
-
-## The Economics Underneath the Hype
-
-- Users get absurd capability for very little money
-- That probably means someone else is subsidising it
-- Monetising AI cleanly still looks hard
-- When margins matter, control gets tighter
-
-<blockquote>
-First abundance, then dependency, then extraction.
-</blockquote>
-
----
-
-## Knowledge Is Still Non-Fungible
-
+### For companies
+- AI bubble could pop
+- We still exist in a world of friction, removing friction has value
+- Don't sack 40% or your employees (assuming you hired good people)
 - Engineers are not paid just to type code
+
+---
+
+
+## Knowledge Is Non-Fungible
+
+
 - Knowledge is abstraction, context, and tradeoffs
 - AI is weak outside the training set
 - Humans may stay the context engines for a long time
