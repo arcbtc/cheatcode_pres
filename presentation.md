@@ -169,9 +169,17 @@ style: |
     grid-template-columns: 1fr 290px;
   }
 
+  .side-figure.box-side-figure {
+    grid-template-columns: 1fr 435px;
+  }
+
   .offset-figure {
     margin-top: -2em;
     margin-left: -3em;
+  }
+
+  .box-figure {
+    margin-left: 0.6em;
   }
 
   .side-figure img {
@@ -254,7 +262,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 
 - Culture of building again
-- Gonzo developing (Ben™)
+- Gonzo Development (Ben™)
 - Cost of producing software is low (allegedly)
 
 
@@ -324,7 +332,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## Adjusting to current reality
 
-<div class="side-figure side-figure-wide">
+<div class="side-figure box-side-figure">
 <div>
 
 - **API is the UI for AI**
@@ -336,7 +344,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 - Humans have material reality context
 
 </div>
-<img class="offset-figure" src="./images/box.jpg" alt="LNbits Box">
+<img class="offset-figure box-figure" src="./images/box.jpg" alt="LNbits Box">
 </div>
 
 ---

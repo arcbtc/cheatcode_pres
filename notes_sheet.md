@@ -6,7 +6,7 @@
 - AI matters because it lowers the cost for ordinary people to make software, but it does not remove the need for judgement.
 - If you want the sharper line early, use: permission is censorship with better branding.
 
-## Slide 2 - A Brief History of FOSS
+## Slide 2 - About me
 - Early computer culture was based on sharing. If you needed software, you borrowed it, discussed it, or wrote it.
 - Early personal machines often dropped you at a prompt. That matters because prompt-driven computing is not new.
 - Bill Gates' 1976 letter is the early statement of proprietary software logic.
@@ -14,14 +14,14 @@
 - MIT licensing represents the looser branch: broad reuse is fine, but attribution stays.
 - If useful, tell the Alan Cox / Linux anecdote here to make the history feel lived rather than abstract.
 
-## Slide 3 - Open Source Won Quietly
+## Slide 3 - A brief history of free and open-source
 - By the 2000s, open source had effectively won the infrastructure layer.
 - Linux, web servers, databases, and cryptography became standard substrate.
 - Even closed products now stand on top of permissionless foundations.
 - The irony is that big tech became a major maintainer of the very commons it once looked like it might replace.
 - Your key phrase here is that open source won infrastructure, but permission still dominates interfaces.
 
-## Slide 4 - FOSS as the Commons
+## Slide 4 - FOSS as the commons
 - Bitcoin and Nostr are good examples because they let people build without asking anyone first.
 - That changes the relationship between capital and the user base: you can build on the commons, but you cannot fully own it.
 - Closed platforms lock people in and then usually enshittify.
@@ -29,7 +29,7 @@
 - LNbits is your concrete example. It only exists because the commons existed first.
 - This is where the Adam Smith invisible-hand joke lands best.
 
-## Slide 5 - Building Like It’s 1975
+## Slide 5 - The good: vibe coding
 - This slide is about builder culture, not interface design.
 - The point is that ordinary people are making little software projects again.
 - The historical callback is the old hobbyist era: small tools, personal needs, quick experiments.
@@ -37,7 +37,7 @@
 - But the scarce resource is still context, examples, and judgement.
 - Important line: code is often the easy bit; judgement is the work.
 
-## Slide 6 - Vibe Coding Has Limits
+## Slide 6 - Doomer time...
 - LLMs are very good at sounding clever.
 - Once they move outside their context or training distribution, they can become very dumb very quickly.
 - That is what slop really is: confidence without context.
@@ -45,7 +45,7 @@
 - Licensing risk has not vanished either. FOSS and third-party code still come with obligations.
 - At some point AI firms will need to turn a profit, and that is when the incentives harden.
 
-## Slide 7 - What This Means for Companies
+## Slide 7 - The bad: hype, myth, limitations
 - Deliver this as observation, not management advice.
 - Closed software gets weaker when users can build useful tools for themselves.
 - In many products, the API becomes the new UI.
@@ -53,7 +53,7 @@
 - The scarce resource remains judgement, not token output.
 - Keep the engineers with strong context, especially the ones who were sceptical at first. They often understand the real constraints.
 
-## Slide 8 - The Economics Underneath the Hype
+## Slide 8 - The ugly: AI industry is a huge bubble
 - Right now, users get disproportionate capability for very little money.
 - That likely means investors are subsidising the experience.
 - Framed bluntly: this is a wealth transfer from VC to users, at least for now.
@@ -61,7 +61,7 @@
 - Good phrase to land here: first abundance, then dependency, then extraction.
 - This is where you can mention agents becoming the next platform layer.
 
-## Slide 9 - Knowledge Is Still Non-Fungible
+## Slide 9 - Reality
 - This is the anti-tech-bro slide.
 - Engineers are not valuable because they type quickly; they are valuable because they carry structured knowledge.
 - Cesar Hidalgo is useful here: knowledge is non-fungible.
@@ -69,12 +69,17 @@
 - AI may remain weak for a long time outside its training set, which is another way of saying it struggles with genuinely novel work.
 - Humans may remain the real context engines for much longer than the hype cycle suggests.
 
-## Slide 10 - Closing Thought
+## Slide 10 - Adjusting to current reality
 - End optimistic, but not naive.
 - Open source is still the substrate.
 - AI is useful when it expands who gets to build.
 - It becomes dangerous when it centralises power and erodes skill.
 - The line to finish on is the new quote: the future belongs to people who can use powerful tools without giving up understanding.
+
+## Slide 11 - Demo
+- Short concrete demo.
+- Show something that makes the leverage point obvious rather than explaining every implementation detail.
+- Keep it tight and let it act as evidence for the argument in the talk.
 
 ## Optional spare lines / ad libs
 - Permission is censorship.
