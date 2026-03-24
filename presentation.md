@@ -335,13 +335,16 @@ Nurture the commons and get rewarded, exploit it and get a slap
 <div class="side-figure box-side-figure">
 <div>
 
-- **API is the UI for AI**
-- Some systems should stay dumb, narrow, and predictable
+- **Some systems should stay dumb, narrow, and predictable**
+- API is the UI for AI
 - Be mindful we are in a blip that could pop
 - We still exist in a world of friction, removing friction has value
 - Engineers are not paid just to type code
 - AI is weak outside the training set
 - Humans have material reality context
+
+<blockquote>I still review all the code, AI isn't there yet ~ Dario Amodei
+</blockquote>
 
 </div>
 <img class="offset-figure box-figure" src="./images/box.jpg" alt="LNbits Box">
