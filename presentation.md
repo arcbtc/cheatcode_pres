@@ -5,7 +5,7 @@ description: "A short talk on permissionless building, open source, AI, and busi
 theme: default
 paginate: true
 paginate-position: bottom-left
-footer: "Ben Arc | CEO lnbits.com / lnostr.com"
+footer: "Ben Arc | CEO lnbits.com / nostr.com"
 color: #f5ecff
 style: |
   :root {
@@ -187,6 +187,14 @@ style: |
 
 <!-- _class: title-slide -->
 ## Building Without Permission in the Age of AI
+
+---
+
+
+## About me
+
+
+
 
 ---
 
