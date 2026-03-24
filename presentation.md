@@ -262,7 +262,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 - Rising energy/resource costs (Iran)
 - Gov tax breaks
 - Slow/expensive infrastructure rollout
-- "if" promises are kept capitalism breaks and we all end up on UBI
+- If/when promises are kept capitalism breaks, AI companies lose, everything gets replaced
 
 | Risk | Result |
 | --- | --- |
@@ -277,7 +277,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 - Make hay while the sun shines 🤷
 - Don't bleed engineers
 - Build like its 1975
-- **context**, **context**, **context** ideas are scarce, tokens are cheap
+- **context**, **context**, **context** ideas are scarce, tokens are unrealistically cheap
 
 <blockquote>Replacing a developer with AI is like replacing a carpenter with a hammer
 </blockquote>
@@ -292,15 +292,14 @@ Nurture the commons and get rewarded, exploit it and get a slap
 - We still exist in a world of friction, removing friction has value
 - Engineers are not paid just to type code
 - AI is weak outside the training set
-- Humans may stay the context engines for a long time
+- Humans have huge context advantages
 
 ---
 
 ## Closing Thought
 
-- Open source is still the substrate
-- AI is useful when it expands who gets to build
-- It is dangerous when it centralises power and erodes skill
+- Open pllatforms are preffered by AI and builders
+- Build as much as you can now
 - The advantage still comes from **tools, context, and taste**
 
 <blockquote>
