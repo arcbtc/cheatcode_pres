@@ -5,7 +5,7 @@ description: "A short talk on permissionless building, open source, AI, and busi
 theme: default
 paginate: true
 paginate-position: bottom-left
-footer: "Ben Arc | CEO lnbits.com / nostr.com"
+footer: ""
 color: #f5ecff
 style: |
   :root {
@@ -17,6 +17,7 @@ style: |
   }
 
   section {
+    position: relative;
     font-family: 'Avenir Next', 'Segoe UI', sans-serif;
     background:
       radial-gradient(circle at bottom left, rgba(247, 147, 26, 0.08), transparent 28%),
@@ -25,14 +26,20 @@ style: |
     padding: 54px 60px 46px 60px;
   }
 
+  section::before {
+    content: "";
+    position: absolute;
+    right: 28px;
+    bottom: -62px;
+    width: 216px;
+    height: 216px;
+    background: url('./images/lnbits_nostr_logo.png') center / contain no-repeat;
+    opacity: 0.22;
+    pointer-events: none;
+  }
+
   footer {
-    font-size: 0.5em;
-    color: rgba(245, 236, 255, 0.38);
-    letter-spacing: 0.03em;
-    left: auto;
-    right: 34px;
-    bottom: 18px;
-    text-align: right;
+    display: none;
   }
 
   section::after {
@@ -78,7 +85,7 @@ style: |
 
   blockquote {
     margin: 0.8em 0 0 0;
-    padding: 0.55em 0.9em;
+    padding: 0.55em 1.8em 0.55em 0.9em;
     border-left: 4px solid var(--btc);
     background: linear-gradient(90deg, rgba(247, 147, 26, 0.10), rgba(181, 60, 255, 0.08));
     color: var(--muted);
@@ -179,6 +186,44 @@ style: |
   .small { font-size: 0.68em; color: var(--muted); }
   .compact li { margin: 0.12em 0; }
 
+  .about-gifs {
+    display: flex;
+    gap: 18px;
+    margin-top: 0.75em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-gifs img {
+    height: 180px;
+    width: auto;
+    border-radius: 12px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .side-figure {
+    display: grid;
+    grid-template-columns: 1fr 240px;
+    gap: 18px;
+    align-items: start;
+  }
+
+  .side-figure-media {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: -2em;
+    margin-left: -3em;
+  }
+
+  .side-figure img {
+    width: 100%;
+    border-radius: 14px;
+    display: block;
+    opacity: 0.92;
+  }
+
   section.title-slide {
     justify-content: center;
     text-align: center;
@@ -192,9 +237,12 @@ style: |
 
 
 ## About me
-
-
-
+### Builder, educator, tinkerer, ceo lnbits.com nostr.com
+<div class="about-gifs">
+  <img src="./1.gif" alt="About me gif 1">
+  <img src="./2.gif" alt="About me gif 2">
+  <img src="./3.gif" alt="About me gif 3">
+</div>
 
 ---
 
@@ -208,36 +256,50 @@ style: |
   “People copying software is stealing”
 - **1983:** GNU Project (Richard Stallman)  
   **1985:** GNU GPL v1  
-  * Must share source  
-  * Keeps software open  
-  * Requires attribution  
+  - Must share source  
+  - Keeps software open  
+  - Requires attribution  
 - **1987:** MIT License (Massachusetts Institute of Technology)  
-  * Do anything (even use in closed software)  
-  * Just keep attribution  
+  - Do anything (even use in closed software)  
+  - Just keep attribution  
 
 <blockquote>
 Software as knowledge not property
 </blockquote>
 
+
 ---
 
 ## FOSS as the Commons
 
-- Bitcoin and Nostr let people build without asking
-- Open protocols keep capital answerable to users
+<div class="side-figure">
+<div>
+
+- Bitcoin and Nostr require no permission
+- Open protocols keeps capital answerable to users
+- Adam Smith Invisible Bitch Slap (Ben™)
 - Closed platforms lock people in, enshittify, push users to FOSS
 
 <blockquote>
 Nurture the commons and get rewarded, exploit it and get a slap
 </blockquote>
 
+</div>
+<img src="./images/adam_smith.png" alt="Adam Smith">
+</div>
+
 ---
 
-## The good: vibe coding | Build Like It’s 1975 🎵
+## The good: vibe coding
 
-- Culture of building again 🚀
-- Gonzo developing (™Ben)
+
+### Build Like It’s 1975 🎵
+
+
+- Culture of building again
+- Gonzo developing (Ben™)
 - Cost of producing software is low (allegedly)
+
 
 ---
 
@@ -248,7 +310,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 ## The bad: hype, myth, limitations
 
 - Licensing implications + code theft
-   * Licenses matter!
+   - Licenses matter!
 - !context === slop. Agents get dumb fast
 - Turing hype: LLMs are great at sounding clever
 - AI hallucinates and is unpredictable
@@ -265,19 +327,29 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## The ugly: AI industry is a huge bubble
 
+<div class="side-figure">
+<div>
 
 - Unsustainable AI business models (current 20x discount)
 - AGI promise built on sand/assumptions (enough power then AGI)
-- Rising energy/resource costs (Iran)
+- Rising energy/resource costs
+- Capital intensity problem facing frontier AI companies
 - Gov tax breaks
 - Slow/expensive infrastructure rollout
-- If/when promises are kept capitalism breaks, AI companies lose, everything gets replaced
+- If/when promises are kept capitalism breaks
 
 | Risk | Result |
 | --- | --- |
 | Poor AI economics | Users won't pay actual cost |
 | AI plateaus | VCs lose return/hyper-enshittification |
 | Industry buckles under own falsehoods | AI development grinds to a halt |
+
+</div>
+<div class="side-figure-media">
+<img src="./images/graph.jpg" alt="AI industry graph">
+<img src="./images/graph2.jpg" alt="AI industry graph 2">
+</div>
+</div>
 
 ---
 
