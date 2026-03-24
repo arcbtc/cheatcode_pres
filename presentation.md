@@ -177,11 +177,18 @@ style: |
 
   .small { font-size: 0.68em; color: var(--muted); }
   .compact li { margin: 0.12em 0; }
+
+  section.title-slide {
+    justify-content: center;
+    text-align: center;
+  }
 ---
 
+<!-- _class: title-slide -->
 ## Building Without Permission in the Age of AI
 
 ---
+
 
 ## A Brief History of Free and Open-Source
 
@@ -209,62 +216,81 @@ Software as knowledge not property
 
 - Bitcoin and Nostr let people build without asking
 - Open protocols keep capital answerable to users
-- Closed platforms lock people in, then enshittify
+- Closed platforms lock people in, enshittify, push users to FOSS
 
 <blockquote>
-Nurture the commons and get rewarded. Exploit it and the network slaps back.
+Nurture the commons and get rewarded, exploit it and get a slap
 </blockquote>
 
 ---
 
-## The good: vibe coding, and building Like It’s 1975
+## The good: vibe coding | Build Like It’s 1975 🎵
 
-- Ordinary people are making little software projects again
-- Gonzo developing
-- **context** supremacy 
+- Culture of building again 🚀
+- Gonzo developing (™Ben)
+- Cost of producing software is low (allegidly)
+
+---
+
+## Doomer time...
+
+---
+
+## The bad: hype, myth, limitations
+
+- Licensing implications + code theft
+   * Licenses matter!
+- !context === slop. Agents get dumb fast
+- Turing hype: LLMs are great at sounding clever
+- AI hallucinates and is unpredictable
+- VC/CEO crack - dump workforce, force useless "AI" products on customers
+
+
+| Risk | Result |
+| --- | --- |
+| License breach | Everyone sues each other |
+| AI over pumped | Later market correction |
+| Skill atrophy | Bleed engineering talent |
+
+---
+
+## The ugly: AI industry is a huge bubble
+
+
+- Unsustainable AI business models (current 20x discount)
+- AGI promise built on sand/assumptions (enough power then AGI)
+- Rising energy/resource costs (Iran)
+- Gov tax breaks
+- Slow/expensive infrastructure rollout
+- "if" promises are kept capitalism breaks and we all end up on UBI
+
+| Risk | Result |
+| --- | --- |
+| Poor AI economics | Users wont pay actual cost |
+| AI platos | VCs lose return/hyper-enshittification |
+| Indursty buckles under own falsehoods | AI development grinds to a halt |
+
+---
+
+## Reality
+
+- Make hay while the sun shines 🤷
+- Don't bleed engineers
+- Build like its 1975
+- **context**, **context**, **context** ideas are scarce, tokens are cheap
 
 <blockquote>Replacing a developer with AI is like replacing a carpenter with a hammer
 </blockquote>
 
 ---
 
-## The bad: AI hype, myth, limitations, bubble
+## Adusting to current reality
 
-- Turing hype: LLMs are great at sounding clever
-- !context === slop. Agents get dumb fast 
-- Licensing implications + code theft
-- Unsustainable AI business models (current 20x discount)
-- AGI promise built on sand
-- Rising energy/resource costs (Iran)
-- VC/CEO crack - dump workforce, force useless "AI" products on customers
-
-| Risk | Result |
-| --- | --- |
-| Weak context | Wrong code |
-| Skill atrophy | Fewer real engineers |
-| AI economics | Enshittification later |
-
----
-
-## Adusting
-
-- **API is the UI for the AI**
+- **API is the UI for AI**
 - Some systems should stay dumb, narrow, and predictable
-- Context/ideas are scarce, not token output
-
-### For companies
-- AI bubble could pop
+- Be mindfull we are in a blip that could pop
 - We still exist in a world of friction, removing friction has value
-- Don't sack 40% or your employees (assuming you hired good people)
 - Engineers are not paid just to type code
-
----
-
-
-## Knowledge Is Non-Fungible
-
-
-- Knowledge is abstraction, context, and tradeoffs
 - AI is weak outside the training set
 - Humans may stay the context engines for a long time
 
