@@ -231,7 +231,7 @@ style: |
 ---
 
 <!-- _class: title-slide -->
-## Building Without Permission in the Age of AI
+## Building without permission in the age of AI
 
 ---
 
@@ -247,7 +247,7 @@ style: |
 ---
 
 
-## A Brief History of Free and Open-Source
+## A brief history of free and open-source
 
 
 - **1970s** “Sharing culture”  
@@ -270,7 +270,7 @@ Software as knowledge not property
 
 ---
 
-## FOSS as the Commons
+## FOSS as the commons
 
 <div class="side-figure">
 <div>
@@ -330,7 +330,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 <div class="side-figure">
 <div>
 
-- Unsustainable AI business models (current 20x discount)
+- Unsustainable AI business models (current 10x discount before profit)
 - AGI promise built on sand/assumptions (enough power then AGI)
 - Rising energy/resource costs
 - Capital intensity problem facing frontier AI companies
@@ -377,7 +377,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ---
 
-## Closing Thought
+## Closing thought
 
 - Open platforms are preferred by AI and builders
 - Build as much as you can now
