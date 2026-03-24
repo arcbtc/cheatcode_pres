@@ -6,7 +6,6 @@ theme: default
 paginate: true
 paginate-position: bottom-left
 footer: "Ben Arc | CEO lnbits.com / lnostr.com"
-backgroundColor: #0d0616
 color: #f5ecff
 style: |
   :root {
@@ -20,9 +19,8 @@ style: |
   section {
     font-family: 'Avenir Next', 'Segoe UI', sans-serif;
     background:
-      radial-gradient(circle at top right, rgba(181, 60, 255, 0.20), transparent 28%),
-      radial-gradient(circle at bottom left, rgba(120, 60, 255, 0.16), transparent 24%),
-      linear-gradient(180deg, #12081f 0%, #0d0616 100%);
+      radial-gradient(circle at bottom left, rgba(247, 147, 26, 0.08), transparent 28%),
+      linear-gradient(135deg, #140a22 0%, #0e0718 52%, #060309 100%);
     color: var(--text);
     padding: 54px 60px 46px 60px;
   }
@@ -84,6 +82,9 @@ style: |
     border-left: 4px solid var(--btc);
     background: linear-gradient(90deg, rgba(247, 147, 26, 0.10), rgba(181, 60, 255, 0.08));
     color: var(--muted);
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
   }
 
   table {
@@ -228,7 +229,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 - Culture of building again 🚀
 - Gonzo developing (™Ben)
-- Cost of producing software is low (allegidly)
+- Cost of producing software is low (allegedly)
 
 ---
 
@@ -249,7 +250,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 | Risk | Result |
 | --- | --- |
 | License breach | Everyone sues each other |
-| AI over pumped | Later market correction |
+| AI over-pumped | Later market correction |
 | Skill atrophy | Bleed engineering talent |
 
 ---
@@ -266,9 +267,9 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 | Risk | Result |
 | --- | --- |
-| Poor AI economics | Users wont pay actual cost |
-| AI platos | VCs lose return/hyper-enshittification |
-| Indursty buckles under own falsehoods | AI development grinds to a halt |
+| Poor AI economics | Users won't pay actual cost |
+| AI plateaus | VCs lose return/hyper-enshittification |
+| Industry buckles under own falsehoods | AI development grinds to a halt |
 
 ---
 
@@ -276,7 +277,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 - Make hay while the sun shines 🤷
 - Don't bleed engineers
-- Build like its 1975
+- Build like it's 1975
 - **context**, **context**, **context** ideas are scarce, tokens are unrealistically cheap
 
 <blockquote>Replacing a developer with AI is like replacing a carpenter with a hammer
@@ -284,11 +285,11 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ---
 
-## Adusting to current reality
+## Adjusting to current reality
 
 - **API is the UI for AI**
 - Some systems should stay dumb, narrow, and predictable
-- Be mindfull we are in a blip that could pop
+- Be mindful we are in a blip that could pop
 - We still exist in a world of friction, removing friction has value
 - Engineers are not paid just to type code
 - AI is weak outside the training set
@@ -298,7 +299,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## Closing Thought
 
-- Open pllatforms are preffered by AI and builders
+- Open platforms are preferred by AI and builders
 - Build as much as you can now
 - The advantage still comes from **tools, context, and taste**
 
