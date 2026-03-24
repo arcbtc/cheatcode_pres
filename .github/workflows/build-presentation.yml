@@ -42,30 +42,13 @@ jobs:
       - name: Install Marp CLI
         run: npm install -g @marp-team/marp-cli
 
-      - name: Build presentation PDF
-        run: |
-          marp \
-            --allow-local-files \
-            --pdf \
-            --output presentation.pdf \
-            presentation.md
-
       - name: Build presentation HTML
         run: |
-          marp \
-            --allow-local-files \
-            --html \
-            --output index.html \
-            presentation.md
+          marp             --allow-local-files             --html             --output index.html             presentation.md
 
       - name: Build notes sheet PDF
         run: |
-          pandoc \
-            notes_sheet.md \
-            --standalone \
-            --css ./scripts/pandoc.css \
-            --pdf-engine=wkhtmltopdf \
-            -o notes_sheet.pdf
+          pandoc             notes_sheet.md             --standalone             --css ./scripts/pandoc.css             --pdf-engine=wkhtmltopdf             -o notes_sheet.pdf
 
       - name: Commit generated outputs
         run: |
