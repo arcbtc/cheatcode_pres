@@ -237,7 +237,7 @@ style: |
 
 
 ## About me
-### Builder, educator, tinkerer, ceo lnbits.com nostr.com
+### Builder, educator, tinkerer, CEO LNbits.com Nostr.com
 <div class="about-gifs">
   <img src="./1.gif" alt="About me gif 1">
   <img src="./2.gif" alt="About me gif 2">
@@ -276,7 +276,7 @@ Software as knowledge not property
 <div>
 
 - Bitcoin and Nostr require no permission
-- Open protocols keeps capital answerable to users
+- Open protocols keep capital answerable to users
 - Adam Smith Invisible Bitch Slap (Ben™)
 - Closed platforms lock people in, enshittify, push users to FOSS
 
@@ -293,7 +293,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 ## The good: vibe coding
 
 
-### Build Like It’s 1975 🎵
+### Build like it’s 1975 🎵
 
 
 - Culture of building again

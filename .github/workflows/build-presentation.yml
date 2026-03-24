@@ -1,4 +1,4 @@
-name: Build presentation PDFs
+name: Build presentation outputs
 
 on:
   workflow_dispatch:
@@ -6,8 +6,13 @@ on:
     paths:
       - 'presentation.md'
       - 'notes_sheet.md'
+      - '.marprc.yml'
+      - 'images/**'
       - 'scripts/**'
       - '.github/workflows/build-presentation.yml'
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -16,6 +21,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -40,8 +47,15 @@ jobs:
           marp \
             --allow-local-files \
             --pdf \
-            --html \
             --output presentation.pdf \
+            presentation.md
+
+      - name: Build presentation HTML
+        run: |
+          marp \
+            --allow-local-files \
+            --html \
+            --output presentation.html \
             presentation.md
 
       - name: Build notes sheet PDF
@@ -53,11 +67,14 @@ jobs:
             --pdf-engine=wkhtmltopdf \
             -o notes_sheet.pdf
 
-      - name: Upload PDF artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: presentation-pdfs
-          path: |
-            presentation.pdf
-            notes_sheet.pdf
-          if-no-files-found: error
+      - name: Commit generated outputs
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add presentation.pdf presentation.html notes_sheet.pdf
+          if git diff --cached --quiet; then
+            echo "No generated output changes to commit"
+            exit 0
+          fi
+          git commit -m "Build presentation outputs"
+          git push
