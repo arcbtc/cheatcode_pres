@@ -136,56 +136,6 @@ style: |
     background: linear-gradient(90deg, var(--btc), var(--accent));
   }
 
-  .hero {
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 22px;
-    align-items: center;
-  }
-
-  .panel {
-    background: linear-gradient(180deg, rgba(38, 20, 58, 0.92), rgba(28, 14, 44, 0.92));
-    border: 1px solid rgba(181, 60, 255, 0.22);
-    border-radius: 18px;
-    padding: 16px 18px;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
-    display: inline-block;
-    width: fit-content;
-    max-width: 100%;
-  }
-
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin-top: 0.55em;
-  }
-
-  .stat {
-    background: rgba(255,255,255,0.02);
-    border: 1px solid rgba(181, 60, 255, 0.18);
-    border-radius: 14px;
-    padding: 12px;
-  }
-
-  .stat-label {
-    color: var(--muted);
-    font-size: 0.6em;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-  }
-
-  .stat-value {
-    font-size: 1.3em;
-    color: #fff;
-    text-shadow: 0 0 18px rgba(247, 147, 26, 0.12);
-    margin-top: 0.18em;
-    font-weight: 700;
-  }
-
-  .small { font-size: 0.68em; color: var(--muted); }
-  .compact li { margin: 0.12em 0; }
-
   .about-gifs {
     display: flex;
     gap: 18px;
@@ -215,11 +165,7 @@ style: |
     gap: 14px;
   }
 
-  .side-figure.graph-side-figure {
-    grid-template-columns: 1fr 290px;
-  }
-
-  .side-figure.box-side-figure {
+  .side-figure.side-figure-wide {
     grid-template-columns: 1fr 290px;
   }
 
@@ -338,7 +284,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## The ugly: AI industry is a huge bubble
 
-<div class="side-figure graph-side-figure">
+<div class="side-figure side-figure-wide">
 <div>
 
 - Unsustainable AI business models (current 10x discount before profit)
@@ -378,7 +324,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## Adjusting to current reality
 
-<div class="side-figure box-side-figure">
+<div class="side-figure side-figure-wide">
 <div>
 
 - **API is the UI for AI**
