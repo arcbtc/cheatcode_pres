@@ -213,6 +213,17 @@ style: |
     display: flex;
     flex-direction: column;
     gap: 14px;
+  }
+
+  .side-figure.graph-side-figure {
+    grid-template-columns: 1fr 290px;
+  }
+
+  .side-figure.box-side-figure {
+    grid-template-columns: 1fr 290px;
+  }
+
+  .offset-figure {
     margin-top: -2em;
     margin-left: -3em;
   }
@@ -239,9 +250,9 @@ style: |
 ## About me
 ### Builder, educator, tinkerer, CEO LNbits.com Nostr.com
 <div class="about-gifs">
-  <img src="./1.gif" alt="About me gif 1">
-  <img src="./2.gif" alt="About me gif 2">
-  <img src="./3.gif" alt="About me gif 3">
+  <img src="./images/1.gif" alt="About me gif 1">
+  <img src="./images/2.gif" alt="About me gif 2">
+  <img src="./images/3.gif" alt="About me gif 3">
 </div>
 
 ---
@@ -285,7 +296,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 </blockquote>
 
 </div>
-<img src="./images/adam_smith.png" alt="Adam Smith">
+<img class="offset-figure" src="./images/adam_smith.png" alt="Adam Smith">
 </div>
 
 ---
@@ -327,7 +338,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## The ugly: AI industry is a huge bubble
 
-<div class="side-figure">
+<div class="side-figure graph-side-figure">
 <div>
 
 - Unsustainable AI business models (current 10x discount before profit)
@@ -367,22 +378,23 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## Adjusting to current reality
 
+<div class="side-figure box-side-figure">
+<div>
+
 - **API is the UI for AI**
 - Some systems should stay dumb, narrow, and predictable
 - Be mindful we are in a blip that could pop
 - We still exist in a world of friction, removing friction has value
 - Engineers are not paid just to type code
 - AI is weak outside the training set
-- Humans have huge context advantages
+- Humans have material reality context
+
+</div>
+<img class="offset-figure" src="./images/box.jpg" alt="LNbits Box">
+</div>
 
 ---
 
-## Closing thought
+## Demo
 
-- Open platforms are preferred by AI and builders
-- Build as much as you can now
-- The advantage still comes from **tools, context, and taste**
-
-<blockquote>
-The future belongs to people who can use powerful tools without giving up understanding.
-</blockquote>
+### Video will go here
