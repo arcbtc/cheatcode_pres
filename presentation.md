@@ -189,6 +189,17 @@ style: |
     opacity: 0.92;
   }
 
+  .demo-video {
+    width: 100%;
+    max-width: 920px;
+    max-height: 470px;
+    margin-top: 1em;
+    border-radius: 16px;
+    border: 1px solid rgba(247, 147, 26, 0.45);
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.35);
+    background: #000;
+  }
+
   section.title-slide {
     justify-content: center;
     text-align: center;
@@ -354,4 +365,7 @@ Nurture the commons and get rewarded, exploit it and get a slap
 
 ## Demo
 
-### Video will go here
+<video class="demo-video" controls autoplay muted loop playsinline>
+  <source src="./images/orangepillshort.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
